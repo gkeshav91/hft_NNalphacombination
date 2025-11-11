@@ -27,7 +27,7 @@ torch.backends.cudnn.benchmark = True
 scaler = amp.GradScaler(device='cuda')
 
 rm_dates = {'20241004','20241011','20241018','20241025','20241031','20241108','20241114'}
-directory = "/workspace/keshav/projects/hftalpha/data/split-000000-093500-0.run1/"
+directory = "/workspace/keshav/projects/hftalpha/data/"
 sampling_frac = 0.5
 os.chdir(directory)
 
