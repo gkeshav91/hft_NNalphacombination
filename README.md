@@ -29,4 +29,8 @@ This framework is particularly suited for quantitative researchers and HFT pract
 	•	Apply domain-informed constraints during training.
 	•	Benchmark and interpret alpha combination strategies on high-frequency datasets.
 
+
+Results:
+
+  Val Loss: 60204.60156250, MSE: 60204.59920108, MAE: 169.85937865, R²: 0.0105, Corr: [np.float64(9.863369655895388), np.float64(10.511540556322839), np.float64(11.432941544194087)]
 ⸻
